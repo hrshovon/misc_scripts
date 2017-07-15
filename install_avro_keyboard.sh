@@ -7,6 +7,7 @@ aclocal && autoconf && automake --add-missing
 ./configure --prefix=/usr
 sudo make install
 
+#installation steps courtesy: some random stackoverflow solution.
 #Now, go to System>Preferences>Personal>Language Support (I am running Ubuntu Mate,So just find out where language support is for your distro)
 #Select keyboard input method as iBus
 #Save and exit
